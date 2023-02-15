@@ -1,0 +1,21 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "Untitled Node.js project",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"remoteUser": "node",
+	"features": {
+		"ghcr.io/devcontainers/features/github-cli:1": {}
+	},
+	"forwardPorts": [
+		4000
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+			"ms-azuretools.vscode-docker"
+			]
+		}
+	}
+}
